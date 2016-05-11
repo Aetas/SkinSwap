@@ -1,0 +1,2 @@
+This will just keep track of the file name of the current skin in use since they will all need the default name to be recognized by steamVR.
+(But when swapped out, the moved file will need to be renamed to its description)
