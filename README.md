@@ -8,3 +8,12 @@ However, since I don't plan on ever using my Vive with steam on Linux (Steam tar
 I kinda want to try layering python on top of c to sort startup commands purely because I can rather than I need to. Which is a classic "add features before you have a program" thing to do.
 
 I might also use a settings file to load a user-defined file location. Might make the program needlessly fat though. Maybe a launch option to load settings file, otherwise default install location?
+
+After pondering updates and the nightmare of 'modding' things that get updated (this isn't actually a mod, but it can still be screwed by updates),  
+I think keeping a skins folder that I just drag+drop skins into for the program to fetch from would have many benefits over copy+swap.
+ * If Steam updates the skin and overwrites it, the modded skin doesn't get deleted from your computer by overwrite
+ * If Steam updates, you'll probably want a copy of the new version they put out.
+Problems with this include screwing up the ref/log file accuracy and having to re-run the program every update but I think that will happen no matter what.
+There are surely ways to get around this but no clean solution is coming to me so I'll take the "nobody but me is actually using this" high ground  
+and make peace with the fact that I know how to fix my own fuck-ups.  
+Yay!
