@@ -6,3 +6,5 @@ The simplicity of this program makes me think a bash script would be faster and 
 However, since I don't plan on ever using my Vive with steam on Linux (Steam targets Debian, not RHEL. Lots of hassle.) I have misgivings about fleshing out a full bash script with options. Plus, Python is excessively easy to use in a Linux environment so it's kinda stupid to do two implementations. Though bash is coming to Windows...
 
 I kinda want to try layering python on top of c to sort startup commands purely because I can rather than I need to. Which is a classic "add features before you have a program" thing to do.
+
+I might also use a settings file to load a user-defined file location. Might make the program needlessly fat though. Maybe a launch option to load settings file, otherwise default install location?
