@@ -1,21 +1,9 @@
 # SkinSwap
 A weird name - it's just for swapping texture files (skins) for a Vive wand. And an excuse to do file things in Python because I need practice. Python. Bleh.
 
-The simplicity of this program makes me think a bash script would be faster and simpler to implement than Python but I should probably get the experience anyhow. Plus, lets be honest, I'd rather do this in C++ or Rust anyhow. Which is utterly overkill for this. (Maybe a good exercise in qt though...)
+## Need to clean'er up and do that documentation thing.
 
-However, since I don't plan on ever using my Vive with steam on Linux (Steam targets Debian, not RHEL. Lots of hassle.) I have misgivings about fleshing out a full bash script with options. Plus, Python is excessively easy to use in a Linux environment so it's kinda stupid to do two implementations. Though bash is coming to Windows...
+Which is really boring so who knows when I'll get around to it.
 
-I kinda want to try layering python on top of c to sort startup commands purely because I can rather than I need to. Which is a classic "add features before you have a program" thing to do.
-
-I might also use a settings file to load a user-defined file location. Might make the program needlessly fat though. Maybe a launch option to load settings file, otherwise default install location?
-
-After pondering updates and the nightmare of 'modding' things that get updated (this isn't actually a mod, but it can still be screwed by updates),  
-I think keeping a skins folder that I just drag+drop skins into for the program to fetch from would have many benefits over copy+swap.
- * If Steam updates the skin and overwrites it, the modded skin doesn't get deleted from your computer by overwrite
- * If Steam updates, you'll probably want a copy of the new version they put out.  
-Problems with this include screwing up the ref/log file accuracy and having to re-run the program every update but I think that will happen no matter what.
-There are surely ways to get around this but no clean solution is coming to me so I'll take the "nobody but me is actually using this" high ground and make peace with the fact that I know how to fix my own fuck-ups.  
-Yay!
-
-If this was being done in C(++) I would have the .ref file load in binary. But nay.  
-It's funny how a tiny script even makes anyone thing about performance. What's more is that anyone swapping Vive skins has a stupidly fast computer anyway.
+I also need to make an installer script of clean up (aka decide on) my file structure. Putting the script in src means it wont see the .log or .ref files I told it to open. But since one is append and the other is read+write, they should be created in the ./src/ directory just fine.  
+But this will introduce the other problem of finding the skins folder so I digress.
