@@ -12,8 +12,10 @@ I might also use a settings file to load a user-defined file location. Might mak
 After pondering updates and the nightmare of 'modding' things that get updated (this isn't actually a mod, but it can still be screwed by updates),  
 I think keeping a skins folder that I just drag+drop skins into for the program to fetch from would have many benefits over copy+swap.
  * If Steam updates the skin and overwrites it, the modded skin doesn't get deleted from your computer by overwrite
- * If Steam updates, you'll probably want a copy of the new version they put out.
+ * If Steam updates, you'll probably want a copy of the new version they put out.  
 Problems with this include screwing up the ref/log file accuracy and having to re-run the program every update but I think that will happen no matter what.
-There are surely ways to get around this but no clean solution is coming to me so I'll take the "nobody but me is actually using this" high ground  
-and make peace with the fact that I know how to fix my own fuck-ups.  
+There are surely ways to get around this but no clean solution is coming to me so I'll take the "nobody but me is actually using this" high ground and make peace with the fact that I know how to fix my own fuck-ups.  
 Yay!
+
+If this was being done in C(++) I would have the .ref file load in binary. But nay.  
+It's funny how a tiny script even makes anyone thing about performance. What's more is that anyone swapping Vive skins has a stupidly fast computer anyway.
